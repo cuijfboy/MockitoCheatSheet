@@ -11,6 +11,8 @@
 
 [StaticExample.java](#class_static_example)
 
+[Dependencies in build.gradle](#dependencies)
+
 ---
 
 <a id="pu_f"></a>
@@ -408,5 +410,28 @@ public class StaticExample {
         System.out.println("Here is StaticExample.privateMethodThatReturns");
         return null;
     }
+}
+```
+
+<a id="dependencies"></a>
+## dependencies in build.gradle
+
+[TOP](#top)
+
+```gradle
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.1.0'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+    testCompile('org.powermock:powermock-module-junit4:1.6.3') {
+        exclude module: 'junit'
+    }
+    testCompile('org.powermock:powermock-api-mockito:1.6.3') {
+        exclude module: 'mockito-all'
+    }
+    testCompile 'org.powermock:powermock-module-junit4-rule:1.6.3'
+    testCompile 'org.powermock:powermock-classloading-xstream:1.6.3'
 }
 ```
