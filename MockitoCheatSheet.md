@@ -1,17 +1,30 @@
 <a id="top"></a>
 # Mockito Cheat Sheet
 
+|member         |field          |constructor    |method         |
+|:--------------|:-------------:|:-------------:|:-------------:|
+|public         |[code](#pu_f)  |[code](#pu_c)  |[code](#pu_m)  |
+|private        |[code](#pr_f)  |-              |[code](#pr_m)  |
+|public  static |[code](#pus_f) |-              |[code](#pus_m) |
+|private static |[code](#prs_f) |-              |[code](#prs_m) |
+
+or
+
 |member         |public         |private        |public static  |private static |
 |:--------------|:-------------:|:-------------:|:-------------:|:-------------:|
 |field          |[code](#pu_f)  |[code](#pr_f)  |[code](#pus_f) |[code](#prs_f) |
 |constructor    |[code](#pu_c)  |-              |-              |-              |
 |method         |[code](#pu_m)  |[code](#pr_m)  |[code](#pus_m) |[code](#prs_m) |
 
+also
+
+[Dependencies in build.gradle](#dependencies)
+
 [Example.java](#class_example)
 
 [StaticExample.java](#class_static_example)
 
-[Dependencies in build.gradle](#dependencies)
+
 
 ---
 
