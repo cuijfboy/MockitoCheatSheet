@@ -1,7 +1,7 @@
 <a id="top"></a>
 # Mockito Cheat Sheet
 
-|member         |field          |constructor    |method         |
+|stub & verify  |field          |constructor    |method         |
 |:--------------|:-------------:|:-------------:|:-------------:|
 |public         |[code](#pu_f)  |[code](#pu_c)  |[code](#pu_m)  |
 |private        |[code](#pr_f)  |-              |[code](#pr_m)  |
@@ -10,7 +10,7 @@
 
 or
 
-|member         |public         |private        |public static  |private static |
+|stub & verify  |public         |private        |public static  |private static |
 |:--------------|:-------------:|:-------------:|:-------------:|:-------------:|
 |field          |[code](#pu_f)  |[code](#pr_f)  |[code](#pus_f) |[code](#prs_f) |
 |constructor    |[code](#pu_c)  |-              |-              |-              |
