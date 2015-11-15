@@ -18,13 +18,19 @@ or
 
 also
 
-[Dependencies in build.gradle](#dependencies)
+[class Example](#class_example)
 
-[Example.java](#class_example)
+[class StaticExample](#class_static_example)
 
-[StaticExample.java](#class_static_example)
+[dependencies in build.gradle](#dependencies)
 
+[ExampleTest.java](MockitoExample/app/src/test/java/com/ilab/mockito/example/ExampleTest.java)
 
+[StaticExampleTest.java](MockitoExample/app/src/test/java/com/ilab/mockito/example/StaticExampleTest.java)
+
+[Example.java](MockitoExample/app/src/main/java/com/ilab/mockito/example/Example.java)
+
+[StaticExample.java](MockitoExample/app/src/main/java/com/ilab/mockito/example/StaticExample.java)
 
 ---
 
